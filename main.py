@@ -1,6 +1,6 @@
 import pandas
 
-pa_dict = {row.letter : row.code for index, row in pandas.read_csv("nato_phonetic_alphabet.csv").iterrows()}
+pa_dict = {row.letter: row.code for index, row in pandas.read_csv("nato_phonetic_alphabet.csv").iterrows()}
 
 user_input = input("Enter a word: ").split()
 
